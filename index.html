@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <title>Midnight Strings | Rock & Pop Acústico en Vivo</title>
+    <meta name="description" content="Midnight Strings - Proyecto de rock acústico ideal para bares, eventos privados y shows íntimos estilo country.">
+    <meta name="keywords" content="rock acústico, música en vivo, show acústico, bar country, midnight strings">
+    <meta name="author" content="Midnight Strings">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Midnight Strings | Rock Acústico">
+    <meta property="og:description" content="Rock acústico con alma y atmósfera íntima.">
+    <meta property="og:image" content="img/logomadera.png">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logomadera.png" type="image/x-icon">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-black bg-opacity-75 backdrop-blur">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+        <img src="img/logomadera.png" height="40" class="me-2">
+        Midnight Strings
+    </a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#covers">COVERS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">ACERCA DE</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">CONTACTO</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="hero-section d-flex align-items-center text-center text-white">
+    <div id="particles-js"></div>
+    <div class="container position-relative z-2" data-aos="fade-up">
+        <!-- <h1 class="display-1 fw-bold title">Midnight Strings</h1>
+        <p class="lead mt-3">Rock acústico con atmósfera cinematográfica.</p> -->
+        <!-- <a href="#covers" class="btn btn-gold btn-lg mt-4">Ver Covers</a> -->
+    </div>
+</section>
+
+<!-- COVERS -->
+<section id="covers" class="py-5 bg-dark text-white">
+    <div class="container">
+        <h2 class="text-center section-covers mb-5" data-aos="fade-right">COVERS</h2>
+        <div class="row g-4">
+
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="video-card" onclick="openVideo('videos/IWantIt.mp4')">
+                    <img src="img/thumb/iwanit.png" class="img-fluid rounded">
+                    <div class="overlay">I Want It That Way - Backstreet Boys</div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="video-card" onclick="openVideo('videos/Losing.mp4')">
+                    <img src="img/thumb/losing.png" class="img-fluid rounded">
+                    <div class="overlay">Losing My Religion - R.E.M</div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="video-card" onclick="openVideo('videos/MilDemonios.mp4')">
+                    <img src="img/thumb/mildemonios.png" class="img-fluid rounded">
+                    <div class="overlay">Mil Demonios - Moderatto</div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="zoom-in">
+                <div class="video-card" onclick="openVideo('videos/Mori.mp4')">
+                    <img src="img/thumb/mori.png" class="img-fluid rounded">
+                    <div class="overlay">Mori - Tranzas</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-5 text-white about-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+                <img src="img/acercade.jpg" class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-md-6" data-aos="fade-left" style="text-align: center;">
+                <h2 class="section-covers">Acerca del Proyecto</h2>
+                <p class="mt-4">
+                    Midnight Strings es un proyecto que fusiona Rock y Pop en Español e Inglés en formato acústico.
+                    Shows diseñados para bares, restaurantes, eventos privados y experiencias íntimas.
+                </p>
+                <p class="mt-4">
+                    Cada presentación crea una atmósfera bohemia, intensa y emocional.
+                </p>
+                <a href="https://wa.me/520000000000" target="_blank" class="btn btn-gold mt-3">Contratar Show</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5 bg-black text-white text-center">
+    <div class="container">
+        <h2 class="section-covers mb-4">Contacto</h2>
+        <p>Disponible para eventos, bares y shows privados.</p>
+        <p> <img src="img/whatsapp.png" alt="" height="30"> WhatsApp: 2282440493</p>
+    </div>
+</section>
+
+<!-- VIDEO MODAL -->
+<div class="modal fade" id="videoModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-black">
+      <div class="modal-body p-0">
+        <iframe id="videoFrame" width="100%" height="400" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/520000000000" class="whatsapp-float" target="_blank">
+    <img src="img/whatsapp.png" alt="" height="40">
+</a>
+
+<footer class="text-center py-3 text-white">
+    © 2026 Midnight Strings
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
