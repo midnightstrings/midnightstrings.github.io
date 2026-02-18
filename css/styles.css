@@ -46,8 +46,9 @@ body {
 }
 
 .hero-section {
-    background: url('../img/background1.jpg') center/cover fixed no-repeat;
-
+    height: 100vh;
+    background: url('../img/background1.jpg') center center / cover no-repeat;
+    position: relative;
 }
 
 #particles-js {
@@ -64,11 +65,11 @@ body {
 }
 
 #covers {
-    background: url('../img/fondosofa.png') center/cover fixed no-repeat;
+    background: url('../img/fondosofa.png') center center / cover no-repeat;
 }
 
 #contact {
-    background: url('../img/fondosofa.png') center/cover fixed no-repeat;
+   background: url('../img/fondosofa.png') center center / cover no-repeat;
 }
 
 .video-card {
@@ -106,4 +107,31 @@ body {
     padding: 15px;
     border-radius: 50%;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        height: 100dvh; /* usa dynamic viewport height */
+        background-position: center top;
+        background-attachment: scroll;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 100dvh;
+        background-position: center top;
+    }
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        background-size: cover;
+    }
 }
